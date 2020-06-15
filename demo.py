@@ -10,14 +10,10 @@ import h5py
 import math
 import argparse
 import os
-import random
-import glob
-import time
-import scipy.io as sio
-import torch
 import sys
 import pickle
 from network import SuperPointFrontend
+import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
@@ -36,7 +32,7 @@ def parsing():
 
     # Parse command line arguments.
     parser = argparse.ArgumentParser(description='PyTorch SuperPoint Demo.')
-    parser.add_argument('--dataset', type=str, default='reichstag',
+    parser.add_argument('dataset', type=str, default='reichstag',
       help='Image directory or movie file or "camera" (for webcam).')
     parser.add_argument('--weights_path', type=str, default='weights/baseline_mixed_loss.pth',
       help='Path to pretrained weights file (default: baseline_mixed_loss.pth).')
@@ -52,7 +48,6 @@ def parsing():
     parser.add_argument('--cuda', action='store_true',
       help='Use cuda GPU to speed up network processing speed (default: False)')
     opt = parser.parse_args()
-    opt.dataset = 'reichstag'
     opt.cuda = True
     return opt
 

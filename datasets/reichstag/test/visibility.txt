@@ -1,0 +1,8 @@
+visibility/vis_000001.txt
+visibility/vis_000002.txt
+visibility/vis_000003.txt
+visibility/vis_000004.txt
+visibility/vis_000005.txt
+visibility/vis_000006.txt
+visibility/vis_000007.txt
+visibility/vis_000008.txt

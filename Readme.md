@@ -56,7 +56,7 @@ For testing the network, please go inside the main folder and run
 the demo.py script as
 follows:
 
-python demo.py --dataset=’reichstag’
+python demo.py ’reichstag’
 
 This will create a folder with the name ‘reichstag’ inside the
 ‘output’ folder. It would contain a .txt file that contains rotation and

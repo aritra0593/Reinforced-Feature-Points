@@ -50,7 +50,8 @@ package version in brackets.
 
 **Training**
 
-Run the training code by :
+To run the training code, go into the folder named Training, and then run this:
+
 python main.py 
 
 **Testing**

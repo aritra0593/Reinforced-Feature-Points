@@ -47,6 +47,10 @@ package version in brackets.
 - pytorch (1.2.0)  
 - opencv (3.4.2) 
 
+**Training**
+Run the training code by :
+python main.py 
+
 **Testing**
 
 First clone this repo to your local

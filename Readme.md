@@ -48,6 +48,7 @@ package version in brackets.
 - opencv (3.4.2) 
 
 **Training**
+
 Run the training code by :
 python main.py 
 

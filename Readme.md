@@ -28,13 +28,14 @@ In our paper, we have shown 3 different tasks. For the task of
 relative pose estimation, we have used RANSAC and NGRANSAC as robust
 estimators.
 
-Currently, we have uploaded the code for testing image pairs for
+This repo contains the code for testing image pairs for
 relative pose estimation using RANSAC. Two of the several datasets used
 in the benchmark are also uploaded along with pre-computed image pairs,
 that were used for the computation of the results.
 
-We will be uploading the codes for NGRANSAC and the training pipeline
-soon.
+The folder named 'Training' contains the training pipeline using RANSAC based on pre-trained superpoint.
+
+We will be uploading the codes for NGRANSAC soon.
 
 
 **Installation**
